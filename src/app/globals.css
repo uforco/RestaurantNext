@@ -2,32 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #0D0D0D !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.primarycolor {
+  color: #FF9F0D;
+}
+
+.primaryBgcolor {
+  background: #FF9F0D !important;
+
+}
+
+.headerBgimg{
+  background: url(../assets/image/headerBgImg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
+.choosegroupbackround{
+  background: url(../assets/image/whychooseus/GroupBackround.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  /* width: 1px; */
+  /* height: 1px; */
+}
+.scroll-hidden::-webkit-scrollbar-track {
+  background: #FF9F0D;
 }
