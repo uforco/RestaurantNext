@@ -43,13 +43,13 @@ FAQ page,
 <br>
 Singin / Singup
 <br>
-#Dashboard
+Dashboard
 <br>
-#admin #login #page
+admin #login #page
 </br>
 </br>
 
 
 ## RestaurantNext Project Design
 
-<img src="" alt="" />
+<img src="https://github.com/uforco/RestaurantNext/blob/main/src/assets/image/Group254.png" alt="RestaurantNext" />
