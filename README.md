@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -22,15 +21,35 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+The developers for the <b>frontend</b> of this product include <b>React</b> <b>Redux</b> and <b>NextJS</b>. And #backend in developed <b>ExpressJS</b> and <b>jwt</b> package will be <b>authentication system</b> . I will use <b>MongoDB</b> and <b>mongoose</b> as <b>database</b>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Some listings on #RestaurantNext pages ↙️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<b>Home, 
+<br>
+About us 
+<br>
+Menu,
+<br>
+Blog page - Blog details 
+<br>
+Shop list - shop details, shopping cart,
+<br>
+Our_chefs,
+<br>
+checkout page,
+<br>
+FAQ page,
+<br>
+Singin / Singup
+<br>
+#Dashboard
+<br>
+#admin #login #page
+</br>
+</br>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## RestaurantNext Project Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="" alt="" />
