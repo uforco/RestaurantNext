@@ -52,4 +52,4 @@ admin #login #page
 
 ## RestaurantNext Project Design
 
-<img src="https://github.com/uforco/RestaurantNext/blob/main/src/assets/image/Group254.png" alt="RestaurantNext" />
+<img src="src/assets/image/Group254.png" alt="RestaurantNext" />
