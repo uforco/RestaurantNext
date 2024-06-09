@@ -1,6 +1,8 @@
 import React from "react";
 import GreatVibesHeading from "./../../components/ui/GreatVibesHeading";
 import SubTitel from "./../../components/ui/SubTitel";
+import HorizontalNavScroll from "./../../components/ui/hsm/HorizontalNavScroll";
+import HorizontalNavItem from "./../../components/ui/hsm/HorizontalNavItem";
 
 const Choosepickmenu = () => {
   const menulist = [
@@ -42,21 +44,18 @@ const Choosepickmenu = () => {
           <SubTitel>From Our Menu</SubTitel>
         </div>
       </div>
-      <div className=" w-full  text-white  ">
+      <div className=" w-full  text-white ">
         {/* <span>{"<"}</span> */}
-        <div
-          className={` text-white w-full flex gap-8 overflow-x-scroll  scroll-hidden `}
-        >
-          {menulist.map((menuName, inx) => (
-            <button
-              className=" hover:text-[#FF9F0D]  text-lg font-semibold "
+        <HorizontalNavScroll>
+          {menulist.map((manu, inx) => (
+            <HorizontalNavItem
+              className=" hover:text-[#f8a527] font-bold lowercase "
               key={inx}
             >
-              {menuName}
-            </button>
+              {manu}
+            </HorizontalNavItem>
           ))}
-        </div>
-
+        </HorizontalNavScroll>
         {/* <span className=" animate-ping ">{">"}</span> */}
       </div>
       <div>

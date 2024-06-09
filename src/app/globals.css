@@ -38,3 +38,12 @@ body {
 .scroll-hidden::-webkit-scrollbar-track {
   background: #FF9F0D;
 }
+
+.scrollberContainer{
+  list-style: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollberContainer::-webkit-scrollbar{
+  display: none;
+}

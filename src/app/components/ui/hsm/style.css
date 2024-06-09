@@ -1,0 +1,80 @@
+
+
+/* .tab-navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    overflow: hidden;
+    transition: 0.3s ease;
+    
+} */
+
+
+.tab-menu {
+    /* padding: 2px 1px;
+    white-space: nowrap;
+    margin: 0px;
+    overflow-x: auto;
+    user-select: none; */
+    transition: 1s ease;
+    /* scroll-behavior: smooth; */
+}
+
+.tab-menu.manudrag{
+    scroll-behavior: unset;
+}
+
+.tab-menu::-webkit-scrollbar{
+    display: none;
+}
+
+.tab-btn{
+    /* color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 10px;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    user-select: none; */
+    transition: 0.3s ease;
+}
+.tab-btn:last-child {
+    margin-right: 0;
+}
+.tab-btn:first-child {
+    margin-left: 0;
+}
+/* .tab-btn:hover{
+    background: #1a31ff;
+} */
+.tab-btn.active{
+    background: #1a31ff;
+}
+
+
+/* .left-btn, .right-btn {
+    position: absolute;
+    font-size: 1.8em;
+    padding: 18px;
+    cursor: pointer;
+    border: 1px solid #fcd8d8;
+    margin: 2px;
+} */
+
+/* .left-btn {
+    left: -5px;
+    background: linear-gradient(to left, transparent, #000 80%) ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+} */
+/* .right-btn {
+    right: -5px;
+    background: linear-gradient(to right, transparent, #000 80%) ;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
