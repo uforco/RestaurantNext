@@ -19,7 +19,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## develop More page
 
 The developers for the <b>frontend</b> of this product include <b>React</b> <b>Redux</b> and <b>NextJS</b>. And #backend in developed <b>ExpressJS</b> and <b>jwt</b> package will be <b>authentication system</b> . I will use <b>MongoDB</b> and <b>mongoose</b> as <b>database</b>
 
@@ -48,6 +48,18 @@ Dashboard
 admin #login #page
 </br>
 
+### Next part develop front-end business logic and backend with nodeJS
+redux
+<br>
+use nextAuth with front-end
+<br>
+express.js
+<br>
+mongodb/mongoose
+
+
+
+## runing develop on Home page 
 
 Live Demo link ====> coming soon
 
