@@ -48,7 +48,7 @@ Dashboard
 admin #login #page
 </br>
 
-### Next part develop front-end business logic and backend with nodeJS
+## Next part develop front-end business logic and backend with nodeJS
 redux
 <br>
 use nextAuth with front-end
@@ -59,7 +59,7 @@ mongodb/mongoose
 
 
 
-## runing develop on Home page 
+### runing  (Choose & pick) section develop with Home page
 
 Live Demo link ====> coming soon
 
