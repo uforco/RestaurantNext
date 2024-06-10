@@ -11,6 +11,11 @@ body {
   color: #FF9F0D;
 }
 
+
+.primaryborder{
+  border-color: #FF9F0D;
+}
+
 .primaryBgcolor {
   background: #FF9F0D !important;
 

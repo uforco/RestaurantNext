@@ -85,15 +85,17 @@ const HorizontalNavScroll: FC<hsnmanu> = ({
   }, []);
 
   const iconStyle =
-    "text-white p-5 h-full absolute text-xl cursor-pointer m-[2px] z-40";
+    "text-white p-3 h-full absolute text-4xl to-40% font-bold cursor-pointer m-[2px] z-40";
 
   return (
-    <div className="tab-navigation rounded-full relative flex justify-center items-center max-w-fit overflow-hidden px-[2px] ">
+    <div className="tab-navigation rounded-full relative flex justify-center items-center max-w-fit overflow-hidden px-[2px]  ">
       <span
         id="leftbtn"
-        className={` ${leftArrowStyle} uil horizoScrollArrowLeft left-btn rounded-l-full  bg-gradient-to-l from-transparent to-[#ac6d0e] to-75% -left-1  ${iconStyle} `}
+        className={`  uil horizoScrollArrowLeft left-btn rounded-l-full  bg-gradient-to-l from-transparent to-[#0D0D0D] -left-1 pr-1 ${iconStyle} `}
       >
-        <p className=" flex justify-center items-center h-full w-full -ml-1 ">
+        <p
+          className={`${leftArrowStyle} flex justify-center items-center h-full w-full  pr-3`}
+        >
           {arrowLeft !== undefined ? (
             arrowLeft
           ) : (
@@ -103,15 +105,17 @@ const HorizontalNavScroll: FC<hsnmanu> = ({
       </span>
       <ul
         id="tabmenu"
-        className={`${classname}  tab-menu  py-[2px] px-6 whitespace-nowrap m-0 overflow-x-auto select-none scroll-smooth z-20  `}
+        className={`${classname}  tab-menu  py-[2px] px-10 whitespace-nowrap m-0 overflow-x-auto select-none scroll-smooth z-20  `}
       >
         {children}
       </ul>
       <span
         id="rightbtn"
-        className={` ${rightArrowStyle} uil horizoScrollArrowRight right-btn rounded-r-full bg-gradient-to-r from-transparent to-[#ac6d0e] to-75%  -right-1  ${iconStyle}`}
+        className={`  uil horizoScrollArrowRight right-btn rounded-r-full bg-gradient-to-r from-transparent to-[#0D0D0D] pl-1  -right-1  ${iconStyle}`}
       >
-        <p className=" flex justify-center items-center h-full w-full -mr-1 ">
+        <p
+          className={` ${rightArrowStyle} flex justify-center items-center h-full w-full  pl-3 `}
+        >
           {arrowRight !== undefined ? (
             arrowRight
           ) : (

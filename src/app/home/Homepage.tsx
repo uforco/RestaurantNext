@@ -6,6 +6,8 @@ import FoodSection from "./FcategorySection/FoodSection";
 import WhyChooseus from "./WhyChooseus/WhyChooseus";
 import Choosedetails from "./choosedetails/Choosedetails";
 import Choosepickmenu from "./Choosepickmenu/Choosepickmenu";
+import Chefs from "./chefs/Chefs";
+import Testimonials from "./testimonials/Testimonials";
 
 // bg-[#0D0D0D]
 
@@ -44,6 +46,16 @@ const Homepage = () => {
       <section>
         <ParentWeithControl>
           <Choosepickmenu></Choosepickmenu>
+        </ParentWeithControl>
+      </section>
+      <section>
+        <ParentWeithControl>
+          <Chefs></Chefs>
+        </ParentWeithControl>
+      </section>
+      <section>
+        <ParentWeithControl>
+          <Testimonials></Testimonials>
         </ParentWeithControl>
       </section>
     </div>
