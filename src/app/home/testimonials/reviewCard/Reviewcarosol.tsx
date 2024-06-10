@@ -16,22 +16,22 @@ const Reviewcarosol = () => {
   });
   return (
     <div ref={sliderRef} className="keen-slider w-full">
-      <div className="keen-slider__slide py-14  number-slide1">
+      <div className="keen-slider__slide py-14 number-slide1">
         <ReviewCard></ReviewCard>
       </div>
-      <div className="keen-slider__slide py-14  number-slide2">
+      <div className="keen-slider__slide py-14 number-slide2">
         <ReviewCard></ReviewCard>
       </div>
-      <div className="keen-slider__slide py-14  number-slide3">
+      <div className="keen-slider__slide py-14 number-slide3">
         <ReviewCard></ReviewCard>
       </div>
-      <div className="keen-slider__slide py-14  number-slide4">
+      <div className="keen-slider__slide py-14 number-slide4">
         <ReviewCard></ReviewCard>
       </div>
-      <div className="keen-slider__slide py-14  number-slide5">
+      <div className="keen-slider__slide py-14 number-slide5">
         <ReviewCard></ReviewCard>
       </div>
-      <div className="keen-slider__slide py-14  number-slide6">
+      <div className="keen-slider__slide py-14 number-slide6">
         <ReviewCard></ReviewCard>
       </div>
     </div>

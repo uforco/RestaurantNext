@@ -28,6 +28,13 @@ body {
   background-size: cover;
   backdrop-filter: blur(50px);
 }
+.restaurantActiveProcessbg{
+  background: url(../assets/image/RestaurantActiveProcessbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
 .choosegroupbackround{
   background: url(../assets/image/whychooseus/GroupBackround.png);
   background-repeat: no-repeat;

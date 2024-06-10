@@ -1,7 +1,7 @@
 import React from "react";
 import GreatVibesHeading from "./../../components/ui/GreatVibesHeading";
 import SubTitel from "./../../components/ui/SubTitel";
-import Reviewcarosol from "./reviewCard/reviewcarosol";
+import Reviewcarosol from "./reviewCard/Reviewcarosol";
 
 const Testimonials = () => {
   return (
@@ -16,5 +16,4 @@ const Testimonials = () => {
     </div>
   );
 };
-
 export default Testimonials;
