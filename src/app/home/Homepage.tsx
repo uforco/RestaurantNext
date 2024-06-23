@@ -9,6 +9,7 @@ import Choosepickmenu from "./Choosepickmenu/Choosepickmenu";
 import Chefs from "./chefs/Chefs";
 import Testimonials from "./testimonials/Testimonials";
 import RestaurantActiveProcess from "./RestaurantActiveProcess/RestaurantActiveProcess";
+import FooterSection from "../components/footerSection/FooterSection";
 
 // bg-[#0D0D0D]
 
@@ -63,6 +64,13 @@ const Homepage = () => {
         <div className=" bg-black bg-opacity-30 w-full ">
           <ParentWeithControl>
             <RestaurantActiveProcess></RestaurantActiveProcess>
+          </ParentWeithControl>
+        </div>
+      </section>
+      <section>
+        <div className=" bg-black bg-opacity-50 w-full ">
+          <ParentWeithControl>
+            <FooterSection></FooterSection>
           </ParentWeithControl>
         </div>
       </section>

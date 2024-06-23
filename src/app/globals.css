@@ -15,9 +15,14 @@ body {
 .primaryborder{
   border-color: #FF9F0D;
 }
-
+    
 .primaryBgcolor {
   background: #FF9F0D !important;
+
+}
+
+.primaryBorderColor {
+  border-color: #FF9F0D;
 
 }
 
