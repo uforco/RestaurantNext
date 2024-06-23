@@ -10,6 +10,7 @@ import Chefs from "./chefs/Chefs";
 import Testimonials from "./testimonials/Testimonials";
 import RestaurantActiveProcess from "./RestaurantActiveProcess/RestaurantActiveProcess";
 import FooterSection from "../components/footerSection/FooterSection";
+import FooterSocialIcon from "./../components/footerSection/FooterSocialIcon";
 
 // bg-[#0D0D0D]
 
@@ -71,6 +72,16 @@ const Homepage = () => {
         <div className=" bg-black bg-opacity-50 w-full ">
           <ParentWeithControl>
             <FooterSection></FooterSection>
+          </ParentWeithControl>
+        </div>
+        <div className=" text-white primaryBgcolor  ">
+          <ParentWeithControl>
+            <div className=" flex flex-col md:flex-row gap-5 justify-center md:justify-between items-center py-5  ">
+              <p className=" text-center ">
+                Copyright © 2022 by Ayeman. All Rights Reserved.
+              </p>
+              <FooterSocialIcon></FooterSocialIcon>
+            </div>
           </ParentWeithControl>
         </div>
       </section>

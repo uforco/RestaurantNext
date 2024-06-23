@@ -3,6 +3,7 @@ import TitelHeading from "./TitelHeading";
 import FooterAbout from "./FooterAbout";
 import Link from "next/link";
 import UseLink from "./UseLink";
+import RecentPost from "./RecentPost";
 
 const FooterMidSection = () => {
   const uselink = ["about", "news", "partners", "Team", "menu", "contacts"];
@@ -47,8 +48,14 @@ const FooterMidSection = () => {
           ))}
         </ul>
       </div>
-      <div className=" w-full bg-slate-400 ">
+
+      <div className=" w-full  ">
         <TitelHeading className={"text-white"}>Recent Post</TitelHeading>
+        <div className="flex flex-col gap-3">
+          <RecentPost></RecentPost>
+          <RecentPost></RecentPost>
+          <RecentPost></RecentPost>
+        </div>
       </div>
     </div>
   );
