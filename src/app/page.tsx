@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <main>
       <Homepage></Homepage>
-      <div className=" w-full h-16 border my-5 "></div>
     </main>
   );
 }

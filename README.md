@@ -61,7 +61,7 @@ mongodb/mongoose
 
 ### runing  (Choose & pick) section develop with Home page
 
-Live Demo link ====> coming soon
+Live Demo link ====> https://restaurant-next-roan.vercel.app
 
 
 </br>
