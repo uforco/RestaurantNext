@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 
-body {
+.bodyBgColorBlack {
   background: #0D0D0D !important;
+}
+.bodyBgColorWhite {
+  background: #ffffff !important;
 }
 
 .primarycolor {
