@@ -1,73 +1,32 @@
 import React from "react";
 import Image from "next/image";
 import startermenu from "@/assets/menu/startermenu.png";
+import MenuItem from "./menuitem/MenuItem";
+import ParentWeithControl from "./../components/ParentWeithControl";
+import Choosedetails from "./../components/choosedetails/Choosedetails";
 
 const page = () => {
   return (
     <div className=" text-black ">
-      <div className=" flex flex-col md:flex-row gap-2 md:gap-14 py-8 w-full ">
-        <div className=" flex justify-center items-center h-40 md:h-auto overflow-hidden ">
-          <Image src={startermenu} alt=""></Image>
+      <ParentWeithControl>
+        <MenuItem className=" md:flex-row"></MenuItem>
+      </ParentWeithControl>
+      <ParentWeithControl>
+        <MenuItem className=" md:flex-row-reverse"></MenuItem>
+      </ParentWeithControl>
+      <section className=" choosegroupbackround my-10 ">
+        <div className=" bg-[#0D0D0D]  bg-opacity-90 ">
+          <ParentWeithControl>
+            <Choosedetails></Choosedetails>
+          </ParentWeithControl>
         </div>
-        <div className=" w-full md:w-2/3 ">
-          <h1 className=" text-4xl font-bold ">Starter Menu</h1>
-          {/* manu 1 */}
-          <div className=" group cursor-pointer mt-4 pb-2 border-b flex flex-col gap-1 text-sm text-gray-500 ">
-            <div className=" mt-3 flex justify-between text-black text-xl font-medium ">
-              <h3 className=" group-hover:text-[#FF9F0D] ">
-                Alder Grilled Chinook Salmon
-              </h3>
-              <p className=" primarycolor gr">32$</p>
-            </div>
-            <p>Toasted French bread topped with romano, cheddar</p>
-            <span>560 CAL</span>
-          </div>
-          {/* manu 2 */}
-          <div className=" group cursor-pointer mt-4 pb-2 border-b flex flex-col gap-1 text-sm text-gray-500 ">
-            <div className="mt-3 flex justify-between text-black text-xl font-medium ">
-              <h3 className=" group-hover:text-[#FF9F0D] ">
-                Alder Grilled Chinook Salmon
-              </h3>
-              <p className=" primarycolor gr">32$</p>
-            </div>
-            <p>Toasted French bread topped with romano, cheddar</p>
-            <span>560 CAL</span>
-          </div>
-          {/* manu 3 */}
-          <div className=" group cursor-pointer mt-4 pb-2 border-b flex flex-col gap-1 text-sm text-gray-500 ">
-            <div className="mt-3 flex justify-between text-black text-xl font-medium ">
-              <h3 className=" group-hover:text-[#FF9F0D] ">
-                Alder Grilled Chinook Salmon
-              </h3>
-              <p className=" primarycolor gr">32$</p>
-            </div>
-            <p>Toasted French bread topped with romano, cheddar</p>
-            <span>560 CAL</span>
-          </div>
-          {/* manu 3 */}
-          <div className=" group cursor-pointer mt-4 pb-2 border-b flex flex-col gap-1 text-sm text-gray-500 ">
-            <div className="mt-3 flex justify-between text-black text-xl font-medium ">
-              <h3 className=" group-hover:text-[#FF9F0D] ">
-                Alder Grilled Chinook Salmon
-              </h3>
-              <p className=" primarycolor gr">32$</p>
-            </div>
-            <p>Toasted French bread topped with romano, cheddar</p>
-            <span>560 CAL</span>
-          </div>
-          {/* manu 3 */}
-          <div className=" group cursor-pointer mt-4 pb-2 border-b flex flex-col gap-1 text-sm text-gray-500 ">
-            <div className="mt-3 flex justify-between text-black text-xl font-medium ">
-              <h3 className=" group-hover:text-[#FF9F0D] ">
-                Alder Grilled Chinook Salmon
-              </h3>
-              <p className=" primarycolor gr">32$</p>
-            </div>
-            <p>Toasted French bread topped with romano, cheddar</p>
-            <span>560 CAL</span>
-          </div>
-        </div>
-      </div>
+      </section>
+      <ParentWeithControl>
+        <MenuItem className=" md:flex-row"></MenuItem>
+      </ParentWeithControl>
+      <ParentWeithControl>
+        <MenuItem className=" md:flex-row-reverse"></MenuItem>
+      </ParentWeithControl>
     </div>
   );
 };

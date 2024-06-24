@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import BodyColorSwich from "./components/BodyColorSwich";
+import ParentWeithControl from "./components/ParentWeithControl";
+import FooterSection from "./components/footerSection/FooterSection";
+import FooterSocialIcon from "./components/footerSection/FooterSocialIcon";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +18,34 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <BodyColorSwich>{children}</BodyColorSwich>
+      <BodyColorSwich>
+        <>
+          {children}
+          <section>
+            <div className=" bodyBgColorBlack w-full ">
+              <ParentWeithControl>
+                <FooterSection></FooterSection>
+              </ParentWeithControl>
+            </div>
+            <div className=" text-white primaryBgcolor  ">
+              <ParentWeithControl>
+                <div className=" flex flex-col md:flex-row gap-5 justify-center md:justify-between items-center py-5  ">
+                  <p className=" text-center ">
+                    Copyright © 2022 Ui design by{" "}
+                    <Link href={"https://templatecookie.com/"}>Ayeman</Link> ©
+                    2024 Develop by{" "}
+                    <Link href={"https://sharifcodedev.vercel.app"}>
+                      SharifCode.dev
+                    </Link>{" "}
+                    - All Rights Reserved.
+                  </p>
+                  <FooterSocialIcon></FooterSocialIcon>
+                </div>
+              </ParentWeithControl>
+            </div>
+          </section>
+        </>
+      </BodyColorSwich>
     </html>
   );
 }

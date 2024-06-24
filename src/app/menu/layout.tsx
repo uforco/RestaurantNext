@@ -24,7 +24,7 @@ export default function layout({
           </p>
         </div>
       </div>
-      <ParentWeithControl>{children}</ParentWeithControl>
+      <>{children}</>
     </div>
   );
 }
