@@ -67,3 +67,22 @@
 .scrollberContainer::-webkit-scrollbar{
   display: none;
 }
+
+#labels-range-input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: #FF9F0D !important ;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 6px #494949;
+}
+
+.categorycheckbox:checked{
+  color: #FF9F0D;
+  background: #FF9F0D;
+}
+.categorycheckbox[type='checkbox'] {
+  color: #FF9F0D;
+  background: #FF9F0D;
+}

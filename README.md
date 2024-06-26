@@ -59,9 +59,9 @@ mongodb/mongoose
 
 
 
-### runing  (Choose & pick) section develop with Menu page
+### runing  (Choose & pick) section develop with Our Shop
 
-Live Demo link ====> https://restaurant-next-roan.vercel.app/menu
+Live Demo link ====> https://restaurant-next-roan.vercel.app/shop
 
 
 </br>
@@ -69,4 +69,4 @@ Live Demo link ====> https://restaurant-next-roan.vercel.app/menu
 
 ## RestaurantNext Project Design
 
-<img src="src/assets/image/MenuGroup254.jpg" alt="RestaurantNext" />
+<img src="src/assets/image/MenuGroup255.jpg" alt="RestaurantNext" />
