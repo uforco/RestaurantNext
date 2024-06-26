@@ -48,14 +48,23 @@ Dashboard
 admin #login #page
 </br>
 
-## Next part develop front-end business logic and backend with nodeJS
-redux
-<br>
-use nextAuth with front-end
-<br>
-express.js
-<br>
-mongodb/mongoose
+## Technologies that will be used 👨‍💻 
+
+NextJS
+
+NextAuth v/s Firebase (Explorer)
+
+Redux
+
+NodeJS ExpressJS / Apollo server
+
+MongoDB / Mongoose
+
+GraphQL (use required)
+
+MySQL (use required)
+
+RestAPI
 
 
 
