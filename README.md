@@ -53,16 +53,16 @@ admin #login #page
 NextJS
 
 NextAuth v/s Firebase (Explorer)
-
+ 
 Redux
 
 NodeJS ExpressJS / Apollo server
 
 MongoDB / Mongoose
 
-GraphQL (use required)
+GraphQL (Requirements on use)
 
-MySQL (use required)
+MySQL (Requirements on use)
 
 RestAPI
 
