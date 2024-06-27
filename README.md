@@ -70,7 +70,7 @@ RestAPI
 
 ### runing  (Choose & pick) section develop with Our Shop > Shop Details page
 
-Live Demo link ====> https://restaurant-next-roan.vercel.app/shop
+Live Demo link ====> https://restaurant-next-roan.vercel.app/shop/343
 
 
 </br>
