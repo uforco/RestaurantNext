@@ -68,7 +68,7 @@ RestAPI
 
 
 
-### runing  (Choose & pick) section develop with Our Shop
+### runing  (Choose & pick) section develop with Our Shop > Shop Details page
 
 Live Demo link ====> https://restaurant-next-roan.vercel.app/shop
 
@@ -78,4 +78,4 @@ Live Demo link ====> https://restaurant-next-roan.vercel.app/shop
 
 ## RestaurantNext Project Design
 
-<img src="src/assets/image/MenuGroup255.jpg" alt="RestaurantNext" />
+<img src="src/assets/image/MenuGroup256.jpg" alt="RestaurantNext" />

@@ -4,7 +4,7 @@ import SingleTags from "./SingleTags";
 
 const ProductTags = () => {
   return (
-    <div>
+    <div className=" py-3 ">
       <h2 className=" font-semibold text-xl ">Product Tags</h2>
       <ul className=" -m-3 mt-[2px] ">
         <SingleTags>Service</SingleTags>
