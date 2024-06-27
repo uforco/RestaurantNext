@@ -11,7 +11,7 @@ const FilterbyPrice = () => {
 
   return (
     <div className=" py-5 ">
-      <h2 className=" font-semibold ">Filter By Price</h2>
+      <h2 className=" font-semibold text-xl ">Filter By Price</h2>
       <div className="relative mb-6">
         <label htmlFor="labels-range-input" className="sr-only">
           Labels range

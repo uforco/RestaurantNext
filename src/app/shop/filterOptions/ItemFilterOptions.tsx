@@ -5,6 +5,8 @@ import FilterbyPrice from "./FilterbyPrice";
 import LatestProduct from "./latestproduct/LatestProduct";
 import Image from "next/image";
 import Banner from "@/assets/shop/Banner.png";
+import Link from "next/link";
+import ProductTags from "./productTag/ProductTags";
 
 interface ItemFilterOptionsProps {
   children?: ReactNode;
@@ -32,6 +34,7 @@ const ItemFilterOptions: FC<ItemFilterOptionsProps> = ({
         </div>
         <FilterbyPrice></FilterbyPrice>
         <LatestProduct></LatestProduct>
+        <ProductTags></ProductTags>
       </div>
     </div>
   );
