@@ -1,5 +1,5 @@
 import React from "react";
-import ShopCard from "./ShopCard";
+import ShopCard from "./../../components/ui/ShopingItemCard/ShopCard";
 
 const ShopCardContainer = () => {
   return (

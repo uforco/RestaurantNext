@@ -37,11 +37,13 @@ const HorizontalNavScroll: FC<hsnmanu> = ({
       leftbtn.style.display = scrollValue > 1 ? "block" : "none";
       rightbtn.style.display = scrollValue < widthValue ? "block" : "none";
     };
+
     dnoneArrow();
     leftbtn?.addEventListener("click", () => {
       tabmenu.scrollLeft -= siteup;
       setTimeout(() => dnoneArrow(), 100);
     });
+
     rightbtn?.addEventListener("click", () => {
       tabmenu.scrollLeft += siteup;
       setTimeout(() => dnoneArrow(), 100);

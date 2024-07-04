@@ -3,6 +3,8 @@ import ItemImage from "./ItemImage";
 import Rating from "./../../../components/ui/Rating";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaRegHeart } from "react-icons/fa";
+import { IoIosGitCompare } from "react-icons/io";
+import ShareIcon from "./ShareIcon";
 const HeaderSection = () => {
   return (
     <div className=" flex w-full flex-col lg:flex-row gap-8 ">
@@ -51,12 +53,20 @@ const HeaderSection = () => {
               </button>
             </div>
           </div>
-          <div className=" border-b pb-5 flex flex-col gap-3 ">
-            <div>
-              <button>
-                <FaRegHeart></FaRegHeart>
+          <div className=" border-b py-5 flex flex-col gap-3 ">
+            <div className=" flex gap-8 ">
+              <button className=" flex justify-center items-center gap-2 ">
+                <FaRegHeart></FaRegHeart> <span>Add to Wishlist</span>
               </button>
+              <p className=" flex justify-start items-center gap-2 ">
+                <IoIosGitCompare></IoIosGitCompare> Compaze
+              </p>
             </div>
+            <div className=" flex flex-col gap-2 ">
+              <p>Category: Pizza</p>
+              <p>Tag: Our Shop</p>
+            </div>
+            <ShareIcon></ShareIcon>
           </div>
         </div>
       </div>
