@@ -2,7 +2,7 @@ import React from "react";
 
 const BillInfo = () => {
   return (
-    <div className=" w-full overflow-hidden flex flex-col md:flex-row gap-5 justify-center items-center py-10 ">
+    <div className=" w-full overflow-hidden flex flex-col md:flex-row gap-5 justify-center items-start py-10 ">
       <div className=" w-full flex justify-center items-center ">
         <div className=" w-full md:w-10/12   ">
           <h2 className=" text-3xl font-semibold mb-5 ">Coupon Code</h2>
@@ -33,9 +33,30 @@ const BillInfo = () => {
         </div>
       </div>
       {/* Total Bill */}
-      <div className=" w-full flex justify-center items-center  ">
-        <div className=" w-full md:w-10/12  bg-orange-300 ">
-          <h2>coupon code</h2>
+      <div className=" w-full flex justify-center items-center ">
+        <div className=" w-full md:w-10/12   ">
+          <h2 className=" text-3xl font-semibold mb-5 ">Total Bill</h2>
+          <div className="  border rounded ">
+            <div className=" border-b p-4 ">
+              <div className=" flex justify-between font-bold text-xl mb-3 ">
+                <h2>Cart Subtotal</h2>
+                <p>$120.00</p>
+              </div>
+              <div className=" flex justify-between ">
+                <h2>Shipping Charge</h2>
+                <p>$00.00</p>
+              </div>
+            </div>
+            <div className=" flex justify-between p-4 font-bold text-xl ">
+              <h2>Total Amount</h2>
+              <p>$205.00</p>
+            </div>
+          </div>
+          <div>
+            <button className=" p-2 py-3 text-center w-full primaryBgcolor text-white my-5 rounded ">
+              Proceed to Checkout
+            </button>
+          </div>
         </div>
       </div>
     </div>
