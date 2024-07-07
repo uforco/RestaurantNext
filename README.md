@@ -67,10 +67,9 @@ MySQL (Requirements on use)
 RestAPI
 
 
+### runing section develop with checkout page
 
-### runing  (Product list Card) section develop with Shopping Card
-
-Live Demo link ====> https://restaurant-next-roan.vercel.app/shoppinglist
+Live Demo link ====> https://restaurant-next-roan.vercel.app/checkout
 
 
 </br>
@@ -78,4 +77,4 @@ Live Demo link ====> https://restaurant-next-roan.vercel.app/shoppinglist
 
 ## RestaurantNext Project Design
 
-<img src="src/assets/image/MenuGroup257.jpg" alt="RestaurantNext" />
+<img src="src/assets/image/MenuGroup258.jpg" alt="RestaurantNext" />
