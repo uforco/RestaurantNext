@@ -18,10 +18,8 @@ const CityLocation: FC<CityDataType> = ({ state, setNewData, newData }) => {
 
     cityList = [...sortCity];
   }
-  console.log(newData);
-
   const setValue = (e: any) => {
-    setNewData((prevState: any) => ({ ...prevState, SName: e?.target?.value }));
+    setNewData((prevState: any) => ({ ...prevState, CName: e?.target?.value }));
   };
 
   return (

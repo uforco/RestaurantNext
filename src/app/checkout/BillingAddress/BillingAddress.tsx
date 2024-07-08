@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import StateLocation from "./location/StateLocation";
 import CityLocation from "./location/CityLocation";
+import ZipCode from "./location/ZipCode";
 
 const BillingAddress = () => {
   const [state, setState]: any = useState([]);
@@ -93,11 +94,29 @@ const BillingAddress = () => {
             setNewData={setNewData}
             newData={newData}
           ></CityLocation>
+          <ZipCode
+            state={state}
+            setNewData={setNewData}
+            newData={newData}
+          ></ZipCode>
+        </div>
+        {/* Address1 Address2 */}
+        <div className=" flex w-full gap-8 my-3 ">
           <div className=" w-full ">
-            <label htmlFor="ZipCode">ZipCode</label>
+            <label htmlFor="Address1">Address 1</label>
             <input
               className=" w-full my-3 border rounded-sm text-xl p-1 py-2 "
-              id="ZipCode"
+              id="Address1"
+              name="Address1"
+              type="text"
+            ></input>
+          </div>
+          <div className=" w-full ">
+            <label htmlFor="Address2">Address 2</label>
+            <input
+              className=" w-full my-3 border rounded-sm text-xl p-1 py-2 "
+              id="Address2"
+              name="Address2"
               type="text"
             ></input>
           </div>
