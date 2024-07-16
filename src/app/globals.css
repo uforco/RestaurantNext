@@ -93,3 +93,20 @@
   color: #FF9F0D;
   background: #FF9F0D;
 }
+
+
+.profileCard:hover > .aboutsocialani {
+  top: 4px;
+  animation-duration: 1s;
+  transition: 0.5s;
+}
+.profileCard:hover > .aboutsocialani {
+  top: 4px;
+  animation-duration: 1s;
+}
+.aboutsocialani {
+  position: absolute ;
+  top: -200px;
+  right: 4px;
+  transition: 0.5s;
+}

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { FC } from "react";
-import Student from "@/assets/about/Student.png";
 
 interface datatype {
   data: {
