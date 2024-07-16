@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import StateLocation from "./location/StateLocation";
 import CityLocation from "./location/CityLocation";
 import ZipCode from "./location/ZipCode";
-
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 const BillingAddress = () => {
   const [state, setState]: any = useState([]);
   const [newData, setNewData] = useState({
@@ -31,7 +31,7 @@ const BillingAddress = () => {
 
   return (
     <div className=" p-4 ">
-      <h2>Shipping Address</h2>
+      <h2 className=" font-semibold text-2xl ">Shipping Address</h2>
       <form onSubmit={heandelsub} className="w-full" action="">
         {/* name section */}
         <div className=" flex w-full gap-8 my-3 ">
@@ -121,7 +121,22 @@ const BillingAddress = () => {
             ></input>
           </div>
         </div>
-        <button type="submit">submit</button>
+        <div className=" flex justify-center items-center gap-5 ">
+          <button
+            className=" flex justify-center items-center w-full border text-gray-700 hover:text-white hover:bg-[#FF9F0D] p-3 "
+            type="submit"
+          >
+            <MdKeyboardArrowLeft className=" text-3xl "></MdKeyboardArrowLeft>
+            <span>Back to cart</span>
+          </button>
+          <button
+            className=" flex justify-center items-center w-full border text-gray-700 hover:text-white hover:bg-[#FF9F0D] p-3 "
+            type="submit"
+          >
+            <span>Proceed to shipping</span>
+            <MdKeyboardArrowRight className=" text-3xl "></MdKeyboardArrowRight>
+          </button>
+        </div>
       </form>
     </div>
   );

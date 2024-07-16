@@ -5,7 +5,7 @@ import TotalBill from "./TotalBillingSection/TotalBill";
 
 const page = () => {
   return (
-    <div className=" bg-white ">
+    <div className=" bg-white py-10 ">
       <ParentWeithControl>
         <div className="flex ">
           <div className=" w-full  ">
