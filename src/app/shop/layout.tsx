@@ -1,6 +1,7 @@
 import Image from "next/image";
 import menuheaderimg from "@/assets/menu/menuheaderimg.png";
 import Header from "./header/Header";
+import UrlHeader from "./../components/urlheader/UrlHeader";
 
 export default function layout({
   children,
@@ -9,14 +10,9 @@ export default function layout({
 }>) {
   return (
     <div>
-      <div className=" relative overflow-hidden ">
-        <Image
-          className=" w-full object-cover "
-          src={menuheaderimg}
-          alt=""
-        ></Image>
+      <UrlHeader>
         <Header></Header>
-      </div>
+      </UrlHeader>
       <>{children}</>
     </div>
   );

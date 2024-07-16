@@ -11,7 +11,7 @@ const page = () => {
           <div className=" w-full  ">
             <BillingAddress></BillingAddress>
           </div>
-          <div className=" w-96 bg-slate-400 ">
+          <div className="">
             <TotalBill></TotalBill>
           </div>
         </div>

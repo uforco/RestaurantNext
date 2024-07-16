@@ -4,6 +4,7 @@ import StateLocation from "./location/StateLocation";
 import CityLocation from "./location/CityLocation";
 import ZipCode from "./location/ZipCode";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+
 const BillingAddress = () => {
   const [state, setState]: any = useState([]);
   const [newData, setNewData] = useState({
