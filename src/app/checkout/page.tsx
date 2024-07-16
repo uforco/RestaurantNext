@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className=" bg-white py-10 ">
       <ParentWeithControl>
-        <div className="flex ">
+        <div className="flex flex-col lg:flex-row ">
           <div className=" w-full  ">
             <BillingAddress></BillingAddress>
           </div>

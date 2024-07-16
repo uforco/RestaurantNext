@@ -35,7 +35,7 @@ const BillingAddress = () => {
       <h2 className=" font-semibold text-2xl ">Shipping Address</h2>
       <form onSubmit={heandelsub} className="w-full" action="">
         {/* name section */}
-        <div className=" flex w-full gap-8 my-3 ">
+        <div className=" flex flex-col lg:flex-row w-full gap-8 my-3 ">
           <div className=" w-full ">
             <label htmlFor="FName">First name</label>
             <input
@@ -54,7 +54,7 @@ const BillingAddress = () => {
           </div>
         </div>
         {/* Email Phone */}
-        <div className=" flex w-full gap-8 my-3 ">
+        <div className=" flex flex-col lg:flex-row  w-full gap-8 my-3 ">
           <div className=" w-full ">
             <label htmlFor="Email">Email address</label>
             <input
@@ -73,7 +73,7 @@ const BillingAddress = () => {
           </div>
         </div>
         {/* Company State */}
-        <div className=" flex w-full gap-8 my-3 ">
+        <div className=" flex flex-col lg:flex-row  w-full gap-8 my-3 ">
           <div className=" w-full ">
             <label htmlFor="Company">Company</label>
             <input
@@ -89,7 +89,7 @@ const BillingAddress = () => {
           ></StateLocation>
         </div>
         {/* City ZipCode */}
-        <div className=" flex w-full gap-8 my-3 ">
+        <div className=" flex flex-col lg:flex-row  w-full gap-8 my-3 ">
           <CityLocation
             state={state}
             setNewData={setNewData}
@@ -102,7 +102,7 @@ const BillingAddress = () => {
           ></ZipCode>
         </div>
         {/* Address1 Address2 */}
-        <div className=" flex w-full gap-8 my-3 ">
+        <div className=" flex flex-col lg:flex-row  w-full gap-8 my-3 ">
           <div className=" w-full ">
             <label htmlFor="Address1">Address 1</label>
             <input
@@ -122,9 +122,9 @@ const BillingAddress = () => {
             ></input>
           </div>
         </div>
-        <div className=" flex justify-center items-center gap-5 ">
+        <div className=" flex flex-col lg:flex-row  justify-center items-center gap-5 ">
           <button
-            className=" flex justify-center items-center w-full border text-gray-700 hover:text-white hover:bg-[#FF9F0D] p-3 "
+            className=" flex  justify-center items-center w-full border text-gray-700 hover:text-white hover:bg-[#FF9F0D] p-3 "
             type="submit"
           >
             <MdKeyboardArrowLeft className=" text-3xl "></MdKeyboardArrowLeft>
