@@ -5,6 +5,7 @@ import ParentWeithControl from "./components/ParentWeithControl";
 import FooterSection from "./components/footerSection/FooterSection";
 import FooterSocialIcon from "./components/footerSection/FooterSocialIcon";
 import Link from "next/link";
+import FooterBgColor from "./components/footerSection/FooterBgColor/FooterBgColor";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,7 +28,7 @@ export default function RootLayout({
                 <FooterSection></FooterSection>
               </ParentWeithControl>
             </div>
-            <div className=" text-white primaryBgcolor  ">
+            <FooterBgColor>
               <ParentWeithControl>
                 <div className=" flex flex-col md:flex-row gap-5 justify-center md:justify-between items-center py-5  ">
                   <p className=" text-center ">
@@ -42,7 +43,7 @@ export default function RootLayout({
                   <FooterSocialIcon></FooterSocialIcon>
                 </div>
               </ParentWeithControl>
-            </div>
+            </FooterBgColor>
           </section>
         </>
       </BodyColorSwich>

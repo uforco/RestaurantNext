@@ -8,7 +8,6 @@ interface bodycolor {
 }
 
 const inter = Inter({ subsets: ["latin"] });
-// className={`${inter.className}`}
 const BodyColorSwich: FC<bodycolor> = ({ children }) => {
   const pathname = usePathname().slice(1);
   return (
