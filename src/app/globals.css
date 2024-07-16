@@ -36,6 +36,13 @@
   background-size: cover;
   backdrop-filter: blur(50px);
 }
+.aboutteammem{
+  background: url(../assets/about/unsplash_OzBLe_Eg1mg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
 .restaurantActiveProcessbg{
   background: url(../assets/image/RestaurantActiveProcessbg.png);
   background-repeat: no-repeat;
