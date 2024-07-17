@@ -26,11 +26,13 @@ export default function NotFound() {
               Menwhile, cheek out these fresh ideas:
             </p>
             <div>
-              <button
-                className={`  primaryBgcolor p-4 px-10 text-base rounded text-white font-semibold `}
-              >
-                Go to home
-              </button>
+              <Link className="" href={"/"}>
+                <button
+                  className={`  primaryBgcolor p-4 px-10 text-base rounded text-white font-semibold `}
+                >
+                  Go to home
+                </button>
+              </Link>
             </div>
           </div>
         </ParentWeithControl>
