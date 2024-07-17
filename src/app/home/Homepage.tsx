@@ -7,8 +7,8 @@ import WhyChooseus from "./WhyChooseus/WhyChooseus";
 import Choosedetails from "../components/choosedetails/Choosedetails";
 import Choosepickmenu from "./Choosepickmenu/Choosepickmenu";
 import Chefs from "./chefs/Chefs";
-import Testimonials from "./testimonials/Testimonials";
 import RestaurantActiveProcess from "./RestaurantActiveProcess/RestaurantActiveProcess";
+import Testimonials from "../components/testimonials/Testimonials";
 
 const Homepage = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import GreatVibesHeading from "./../../components/ui/GreatVibesHeading";
-import SubTitel from "./../../components/ui/SubTitel";
+import GreatVibesHeading from "../ui/GreatVibesHeading";
+import SubTitel from "../ui/SubTitel";
 import Reviewcarosol from "./reviewCard/Reviewcarosol";
 
 const Testimonials = () => {

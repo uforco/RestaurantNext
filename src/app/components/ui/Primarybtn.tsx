@@ -12,7 +12,7 @@ const Primarybtn: FC<BtnOptionalProp> = ({
 }) => {
   return (
     <button
-      className={` ${classname} primaryBgcolor p-3 px-8 text-sm rounded-full `}
+      className={`  primaryBgcolor p-3 px-8 text-sm rounded-full ${classname} `}
     >
       {children}
     </button>

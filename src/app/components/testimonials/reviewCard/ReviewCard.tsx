@@ -1,5 +1,5 @@
 import React from "react";
-import AvatarImg from "./../../../components/ui/AvatarImg";
+import AvatarImg from "../../ui/AvatarImg";
 
 const ReviewCard = () => {
   return (

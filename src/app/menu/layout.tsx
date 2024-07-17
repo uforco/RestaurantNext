@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import menuheaderimg from "@/assets/menu/menuheaderimg.png";
 import UrlHeader from "./../components/urlheader/UrlHeader";
 
 export default function layout({
