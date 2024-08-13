@@ -77,4 +77,4 @@ Live Demo link ====> https://restaurant-next-roan.vercel.app/checkout
 
 ## RestaurantNext Project Design
 
-<img src="https://i.ibb.co/5jDRdL2/pd1.png" alt="RestaurantNext" />
+<img src="https://i.ibb.co/3dkjwDH/Menu-Group258.jpg" alt="RestaurantNext" />
